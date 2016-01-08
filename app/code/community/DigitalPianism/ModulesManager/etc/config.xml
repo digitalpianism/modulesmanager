@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <DigitalPianism_ModulesManager>
+            <version>0.3.0</version>
+        </DigitalPianism_ModulesManager>
+    </modules>
+	<admin>
+		<routers>
+			<adminhtml>
+				<args>
+					<modules>
+						<DigitalPianism_ModulesManager before="Mage_Adminhtml">DigitalPianism_ModulesManager_Adminhtml</DigitalPianism_ModulesManager>
+					</modules>
+				</args>
+			</adminhtml>
+		</routers>
+	</admin>
+	<global>
+		<models>
+			<!-- Model declaration -->
+			<modulesmanager>
+				<class>DigitalPianism_ModulesManager_Model</class>
+			</modulesmanager>
+		</models>
+		<helpers>
+			<!-- Helper declaration -->
+			<modulesmanager>
+				<class>DigitalPianism_ModulesManager_Helper</class>
+			</modulesmanager>
+		</helpers>
+		<blocks>
+			<!-- Block declaration -->
+			<modulesmanager>
+				<class>DigitalPianism_ModulesManager_Block</class>
+			</modulesmanager>
+		</blocks>
+
+	</global>
+	<phpunit>
+		<suite>
+			<modules>
+				<DigitalPianism_ModulesManager/>
+			</modules>
+		</suite>
+	</phpunit>
+</config>
