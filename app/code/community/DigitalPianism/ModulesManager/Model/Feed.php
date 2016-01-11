@@ -104,7 +104,7 @@ class DigitalPianism_ModulesManager_Model_Feed extends Varien_Data_Collection
     public function addFieldToFilter($field, $condition = null)
     {
         $keyFilter = key($condition);
-        $valueFilter = $condition[$keyFilter]->__toString();
+        $valueFilter = (string)$condition[$keyFilter];
         $this->addFilter($field,$valueFilter,'and');
         return $this;
     }
