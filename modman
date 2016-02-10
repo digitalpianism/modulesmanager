@@ -1,4 +1,5 @@
-app/code/community/DigitalPianism/ModulesManager  app/code/community/DigitalPianism/ModulesManager 
-app/etc/modules/DigitalPianism_ModulesManager.xml app/etc/modules/DigitalPianism_ModulesManager.xml
-skin/adminhtml/default/default/css/digitalpianism skin/adminhtml/default/default/css/digitalpianism
-skin/adminhtml/default/default/js/digitalpianism  skin/adminhtml/default/default/js/digitalpianism 
+# DigitalPianism_ModulesManager
+app/code/community/DigitalPianism/ModulesManager                    app/code/community/DigitalPianism/ModulesManager
+app/etc/modules/DigitalPianism_ModulesManager.xml                   app/etc/modules/DigitalPianism_ModulesManager.xml
+skin/adminhtml/default/default/css/digitalpianism/modulesmanager    skin/adminhtml/default/default/css/digitalpianism/modulesmanager
+skin/adminhtml/default/default/js/digitalpianism/modulesmanager     skin/adminhtml/default/default/js/digitalpianism/modulesmanager
